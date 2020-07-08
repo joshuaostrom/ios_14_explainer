@@ -12,7 +12,7 @@ This brief explainer provides some thoughts on two of the changes in iOS 14 as i
   - IDFA resets now occurs when tracking is toggled off for the only app using tracking
   - Some exchange SDKs do provide fallback IDFA values when IDFA is unavailable
 
-# IDFA Action Items
+# IDFA action items
   - App publishers should update apps to include requestTrackingAuthorization
   - Exchange SDKs could provide fallback IDFA values.
   Sample code:
